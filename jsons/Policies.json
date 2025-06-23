@@ -403,9 +403,9 @@
 			{
 				"name": "Exploration Complete",
 				"uniques": [
-					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Discover [Hidden Antiquity Sites]",
 					"[+3 Culture] [in all coastal cities]",
-					"Discover [Hidden Antiquity Sites] <hidden from users>"
+					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				],
 				"civilopediaText": [
 					{ "text": "Reveals [Hidden Antiquity Site] on the map", "link": "Resource/Hidden Antiquity Site" }
@@ -745,12 +745,12 @@
 				"name": "Third Alternative",
 				"uniques": [
 					"[+5 Food, +5 Science] [in capital]",
-					"Double quantity of [Horses] produced",
-					"Double quantity of [Iron] produced",
-					"Double quantity of [Coal] produced",
-					"Double quantity of [Oil] produced",
-					"Double quantity of [Aluminum] produced",
-					"Double quantity of [Uranium] produced",
+					"[+100]% [Horses] resource production",
+					"[+100]% [Iron] resource production",
+					"[+100]% [Coal] resource production",
+					"[+100]% [Oil] resource production",
+					"[+100]% [Aluminum] resource production",
+					"[+100]% [Uranium] resource production",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"

@@ -101,7 +101,7 @@
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
 		"uniques": [
-			"Double quantity of [Tourism] produced <during a Golden Age>",
+			"[+100]% [Tourism] resource production <during a Golden Age>",
 			"[Great Artist] is earned [50]% faster <during a Golden Age>",
 			"[Great Musician] is earned [50]% faster <during a Golden Age>",
 			"[Great Writer] is earned [50]% faster <during a Golden Age>"
@@ -277,12 +277,11 @@
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
 		"uniques": [
-			"Double quantity of [Trade Route] produced",
-			"[+100]% Gold from Great Merchant trade missions", // Unit/Merchant of Venice
 			"Cannot build [Settler] units",
 			"May not annex cities",
-			"May buy items in puppet cities",
+			"Double the normal number of Trade Routes available",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
+			"May buy items in puppet cities",
 			"Preferred Ideology: Freedom"
 		],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
@@ -298,12 +297,12 @@
 
 		"startIntroPart1": "Blessings be upon you, wise and fearsome Chief Pocatello, revered leader of the Shoshone people. As the young chieftain of the Shoshone, you rose to face a wave of encroaching American settlements across the western United States. Forced to defend the Shoshone ancestral lands from a seemingly endless stream of new emigrants, your war band struck fear into those who would claim the sacred lands of your people. After years of strife, you skillfully avoided a direct conflict with the armies of the U.S. government, and negotiated a series of treaties in the hopes of establishing a lasting peace for the Shoshone.",
 		"startIntroPart2": "Most esteemed Pocatello, your people once again look to you for guidance. Will you conquer your enemies, driving them far from your lands? Or will you seek out peaceful diplomacy and trade? Will you build a civilization that stands the test of time?",
-		"declaringWar": "Shoshone!, We will kill the white man!",
-		"attacked": "I must make the foreigner go away!",
+		"declaringWar": "Ready yourself... War is coming.",
+		"attacked": "I will not kneel to unwarranted aggression!",
 		"defeated": "This will not be the end of my people, I assure you.",
 		"denounced": "Your words are meaningless.",
-		"introduction": "I am Chief Pocatello. You have arrived in the thick of Shoshone land.",
-		"neutralHello": "Our time has arrived!",
+		"introduction": "I am Pocatello of the Shoshone, I greet you in the hopes of a peaceful and prosperous relationship.",
+		"neutralHello": "Welcome.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Would you listen to my proposal?",
 
@@ -311,8 +310,10 @@
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
 		"uniques": [
-			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-			"[-25]% Culture cost of natural border growth [in all cities]" // Founded cities start with additional territory
+			"Comment [Founded cities start with additional territory]",
+			// TODO: Newly founded cities to begin with 8 additional tiles. The following is <= 12 instead of 8.
+			"Gain control over [{non-[City-States]} {non-[Major]}] tiles in a [2]-tile radius <upon founding a city> <hidden from users>",
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
 		],
 		"spyNames": ["Cameahwait", "Ondongarte", "Queenah", "Pugweenee", "Sacajawea", "Sagwitch", "Sanpitch", "Tetoharsky", "Tuziyammo", "Mugwayan"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
@@ -346,9 +347,9 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ships of the Desert",
 		"uniques": [
-			"Comment [[Caravan]s gain 50% extended range]", // @see Unit/Caravan
+			"Caravans gain 50% extended range", // @see Unit/Caravan
 			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
-			"Double quantity of [Oil] produced"
+			"[+100]% [Oil] resource production"
 		],
 		"spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -464,7 +465,7 @@
             "Koblenz","Hildesheim","Erlangen"]
     },
 
-{
+	{
         "name": "Iroquois",
         "leaderName": "Hiawatha",
         "adjective": ["Irochese"],
@@ -489,7 +490,7 @@
         "uniqueName": "The Great Warpath",
         "uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Comment [[Caravan]s get double movement in [{Forest} {Jungle}]]" // @see Unit/Caravans
+			"Comment [[Caravan]s get double movement in [{Forest} {Jungle}]]", // @see Unit/Caravans
 			"Preferred Ideology: Freedom"
 		],
 	    "spyNames": ["Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"],
@@ -527,7 +528,7 @@
 	},
 	{
 		"name": "Kyzyl",
-		"adjective": ["Kievan"],
+		"adjective": ["Kyzyl"],
 		"cityStateType": "Cultured",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -535,7 +536,7 @@
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0, 163, 181],
-		"cities": ["Kiev"]
+		"cities": ["Kyzyl"]
 	},
 	{
 		"name": "Kabul",
